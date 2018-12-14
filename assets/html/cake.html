@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>蛋糕页面</title>
+    <link rel="stylesheet" href="../css/cake.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+<!--header-->
+<div class="headBox">
+    <div class="head">
+        <h1><a href="#"><img src="../img/logo.jpg" alt=""></a></h1>
+        <ul class="left_head">
+            <li><a href="../../index.html">首页</a></li>
+            <li><a href="./cake.html">蛋糕</a></li>
+            <li><a href="#">冰淇淋</a></li>
+            <li><a href="#">咖啡下午茶</a></li>
+            <li><a href="#">面包</a></li>
+            <li><a href="#">咖啡全国送</a></li>
+            <li><a href="#">企业专区</a></li>
+        </ul>
+        <ul class="right_head">
+            <li class="headApp">APP下载
+                <div class="code">
+                    <img src="../img/code.png" alt="">
+                    <p>下载享更多优惠</p>
+                </div>
+            </li>
+            <li class="headCity xiala">北京
+                <span></span>
+                <ul class="cityMenu">
+                    <li><a href="#">上海</a></li>
+                    <li><a href="#">天津</a></li>
+                    <li><a href="#">杭州</a></li>
+                    <li><a href="#">无锡</a></li>
+                    <li><a href="#">广州</a></li>
+                    <li><a href="#">深圳</a></li>
+                </ul>
+            </li>
+            <li  class="headMessage xiala">
+                <a href="#">消息</a>
+                <ul class="messageMenu">
+                    <li><a href="#">通知</a></li>
+                    <li><a href="#">物流</a></li>
+                </ul>
+            </li>
+            <li class="headLogin">
+                <a href="./signin.html">登录</a>/
+                <a href="./login.html">注册</a>
+            </li>
+            <li class="headShopCar"></li>
+        </ul>
+    </div>
+</div>
+<!--container-->
+<div class="container">
+    <div class="cakeNav">
+        <dl>
+            <dt>分类:</dt>
+            <dd><a href="#">全部分类</a></dd>
+            <dd><a href="#">蛋糕</a></dd>
+            <dd><a href="#">冰淇淋</a></dd>
+            <dd><a href="#">咖啡下午茶</a></dd>
+            <dd><a href="#">常温蛋糕</a></dd>
+            <dd><a href="#">设计师礼品</a></dd>
+            <dd><a href="#">面包</a></dd>
+        </dl>
+        <dl>
+            <dt>口味:</dt>
+            <dd><a href="#">全部口味</a></dd>
+            <dd><a href="#">乳脂奶油</a></dd>
+            <dd><a href="#">慕斯</a></dd>
+            <dd><a href="#">乳酪</a></dd>
+            <dd><a href="#">巧克力</a></dd>
+            <dd><a href="#">坚果</a></dd>
+            <dd><a href="#">水果</a></dd>
+            <dd><a href="#">含酒</a></dd>
+            <dd><a href="#">咖啡</a></dd>
+            <dd><a href="#">冰淇淋</a></dd>
+        </dl>
+    </div>
+    <div class="cakeList">
+
+
+        <ul class="clear"><!--jq创建的li--></ul>
+    </div>
+</div>
+<!--footer区-->
+<div class="footerBox">
+    <div class="footerTop">
+        <img src="../img/footer-logo.png" alt="">
+        <div class="footerNav">
+            <a href="#">联系我们</a>
+            <span>|</span>
+            <a href="#">订购帮助</a>
+            <span>|</span>
+            <a href="#">企业合作</a>
+            <span>|</span>
+            <a href="#">生产经营资质</a>
+            <span>|</span>
+            <a href="#">公告专区</a>
+        </div>
+        <ul class="footerIcon">
+            <li class="footerIcon1"><a href="https://weibo.com/21cake" style="width:50px; height:50px;display: block"></a></li>
+            <li class="footerIcon2 icon">
+                <div  class="erweima">
+                    <img src="../img/erweima.png" alt="">
+                </div>
+            </li>
+            <li class="footerIcon3 icon">
+                APP
+                <div class="erweima">
+                    <img src="../img/code.png" alt="">
+                </div>
+            </li>
+        </ul>
+        <div class="footerText">
+            <span>订购专线:400 650 2121(服务时间08:00-22:00)</span>
+            <span>客服电话:021-23099721(全国)| kefu@21cake.com(邮箱)</span>
+            <span>杭州/广州:提前5小时预订;北京:提前6小时预订;上海:提前5.5-6小时预订;天津/苏州/无锡/深圳:提前八小时预订(部分偏远地区除外，当日22点以后订单，于次日8点开始审核)</span>
+            <span>当日蛋糕配送截止下单时间:北京:16:50;上海:16:30;杭州/广州:13:50;天津:10:30;苏州/无锡/深圳:11:00</span>
+            <span>网站注册公司名称:北京廿一客食品有限公司地址:北京市北京经济技术开发区兴海二街5号院3号楼</span>
+        </div>
+    </div>
+    <hr width="100%" style="border:1px solid #616161;">
+    <div class="footerBottom">
+        <span>Copyright&copyright;21cake蛋糕官网商城 2007-2018，版权所有</span>
+        <a href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action;jsessionid=uPUmlgVJp5RWO873NwyzA3kS7oY7u6lgqAeoFipOl8O8ziwSr00Y!-2113647171">京ICP备14006254号-1</a>
+    </div>
+</div>
+
+
+<script>
+    /*二维码*/
+    $(".code").slideUp();
+    $(".headApp").hover(function () {
+            $(this).children().eq(0).slideDown(200)
+        },
+        function () {
+            $(this).children().eq(0).slideUp(200)
+        });
+    /*城市下拉菜单,消息下拉菜单*/
+    $(".xiala").hover(
+        function (){
+            $(this).children().last().slideDown(200)
+        },
+        function () {
+            $(this).children().last().slideUp(200)
+        }
+    );
+
+    //Ajax获取本地json数据
+
+    $(document).ready(function( ){
+        $.getJSON("../config/tsconfig.json",function (res) {
+        //console.log(res);//获取到数组中的每一个对象
+            $(res).each(function (index,elem) {
+//            console.log(index);//下标
+//            console.log(elem);//数组的每一个对象
+                createDiv(elem);
+            })
+        })
+
+
+        function createDiv(obj) {
+//            console.log(obj);
+            var li=$("<li></li>");
+            var div=$("<div></div>");
+            var img=$("<img>").attr("src",obj.icon);
+            var h3=$("<h3></h3>");
+            var span=$("<span></span>");
+            var div1=$("<div></div>");
+            var div2=$("<div></div>");//加入购物车按钮盒子
+            var div3=$("<div></div>");//隐藏的购物车盒子
+            var ul=$("<ul></ul>");//商品规格
+            var div4=$("<div></div>");//购买按钮盒子
+            var leftBtn=$("<button></button>");//立即购买
+            var rightBtn=$("<button></button>");//加入购物车
+            //每个详情li
+            li.appendTo($(".cakeList").children(0)).css({
+                textAlign:"center" ,
+                position: "relative",
+                float:"left",
+                width:"228px",
+                padding:"0 18px",
+                cursor:"pointer",
+                margin:"0px 18px"
+            });
+            div.appendTo(li).css({
+                "width":"228px",
+                "overflow":"hidden",
+                "position":"relative"
+            });
+          img.appendTo(div).css({
+                width:"228px",
+                height:"246px",
+                marginBottom:"14px"
+            });
+           h3.appendTo(div).text(obj.name).css({
+                fontSize:"13px",
+                lineHeight:"20px",
+                height:"20px",
+                cursor:"pointer"
+            }).hover(function (e) {
+                $(this).css("color","#bb9772")
+            },function () {
+                $(this).css("color","#000")
+            });
+            span.appendTo(div).text(obj.price).css({
+                display:"block",
+                color:"#bb9772",
+                fontSize:"13px",
+                lineHeight:"18px",
+                marginTop:"7px"
+            });
+            div1.appendTo(div);
+            div2.appendTo(div).css({
+               fontSize:"13px",
+                color:"#000",
+                padding:"5px 36px"
+            }).text(obj.font).hover(function () {
+                $(this).css("color","#e4cab0");
+                $(this).children(0).css({
+                    backgroundPositionX:obj.bgHoverLeft,
+                    backgroundPositionY:obj.bgHoverTop})
+            },function () {
+                $(this).css("color","#000");
+                $(this).children(0).css({
+                    backgroundPositionX:obj.bgPositionLeft,
+                    backgroundPositionY:obj.bgPositionTop})
+            }).prepend($("<span></span>").css({
+                display:"inline-block",
+                width:"18px",
+                height:"22px",
+                verticalAlign:"middle",
+                background:"url(../img/icon-min.png) no-repeat",
+                backgroundPositionX:obj.bgPositionLeft,
+                backgroundPositionY:obj.bgPositionTop
+            }));
+
+
+            //div2点击时，添加点击事件，加入购物车按钮盒子
+            div2.on("click",shopCarBoxHandler);
+
+            //隐藏的购物车盒子
+            div3.css({
+                width:"216px",
+                height:"168px",
+                background:"#f8f8f8",
+                position:"absolute",
+                padding:"17px 0  20px 12px",
+                left:"0",
+                top:"380px"}).appendTo(div);
+            $("<h4></h4>").prependTo(div3).text(obj.price.split("/")[0]).css({
+                color:"#684029",
+                fontWeight:"bold",
+                textAlign:"left",
+                marginBottom:"20px"
+            });
+            //购物车盒子里的p "商品规格"
+            $("<p></p>").appendTo(div3).text("商品规格").css({
+                fontSize:"13px",
+                color:"#684029",
+                textAlign:"left"
+            });
+            ul.appendTo(div3).css({
+                listStyle:"none"
+            })
+            //遍历商品规格，根据个数创建 li
+           $.each(obj.standard,function (index,value) {
+//                console.log(value);
+                $("<li></li>").appendTo(ul).css({
+                    float:"left",
+                    padding:"5px",
+                    border:"1px solid #e7e0dd",
+                    margin:"5px 2px",
+                    color:"#684029"
+                }).text(value);
+
+            })
+            //购买按钮盒子
+            div4.appendTo(div3).css({
+                width:"240px",
+                height:"30px",
+                float:"left"
+            })
+            //立即购买按钮
+            leftBtn.appendTo(div4).css({
+                width:"100px",
+                height:"28px",
+                float:"left",
+                display:"block",
+                lineHeight:"28px",
+                border:"1px solid #684029",
+                color:"#7a5844",
+                background:"#fff",
+                marginRight:"8px"
+            }).text("立即购买");
+            //加入购物车按钮
+            rightBtn.appendTo(div4).css({
+                width:"100px",
+                height:"28px",
+                float:"left",
+                display:"block",
+                lineHeight:"28px",
+                color:"#fff",
+                background:"#684029",
+                border:"none"
+            }).text("加入购物车");
+            //人气 生日 情侣 小按钮
+            $.each(obj.tag,function (index,value) {
+                $("<span></span>").text(value).css({
+                    display:"inline-block",
+                    padding:"0 6px",
+                    margin:"8px 3px",
+                    border:"1px solid #d5bfa7",
+                    borderRadius:"20px",
+                    color:"#d5bfa7"
+                }).appendTo(div1);
+            })
+            //点击空白区，购物车盒子div3隐藏
+            $(document).on("click",function (e) {
+               div3.css({
+                   top:"380px"
+               })
+            })
+        }
+
+
+    //购物车盒子的滑动出现
+        function shopCarBoxHandler(e) {
+//           console.log($(this))//div2 按钮
+//           console.log($(this).next())//div3 购物车盒子
+            $(this).next().animate({
+                top:"168px"
+            },800);   //购物车盒子显示出来
+
+        }
+
+
+
+    })
+
+
+
+
+
+
+</script>
+</body>
+</html>

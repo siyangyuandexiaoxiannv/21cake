@@ -1,0 +1,227 @@
+html{font-size: 100px;}
+/************************头部*****************************/
+.headBox{
+    width:100%;
+    height:80px;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    background: #fff;
+    box-shadow:0 1px 1px 1px #c2b3a6 ;
+}
+.head{
+    width:1200px;
+    height:80px;
+    margin: 0 auto;
+}
+.head h1{
+    margin-top: 18px;
+    float:left;
+}
+.head>ul{
+    float:left;
+    margin-left: 30px;
+}
+.head>ul li{
+    float: left;
+    line-height: 80px;
+    padding:0 15px;
+}
+.head a{color:#000;}
+.head a:hover{color:#8c816e;}
+.head>.right_head{
+    float: right;
+    line-height: 80px;
+}
+.right_head:hover{color:#8c816e;}
+.headApp{
+    float:left;
+    position: relative;
+}
+.headApp>.code{
+    width:100px;
+    background: #fff;
+    position: absolute;
+    left:-24px;
+    padding:10px 10px;
+    display: none;
+    border:1px solid #eaeaea;
+}
+.code img{
+    width:100px;
+    height:100px;}
+.code p{color:#544035;line-height: 14px;margin-top: 2px;}
+.headCity{
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.headCity span{
+    display: inline-block;
+    width:10px;
+    height:7px;
+    background: url("../img/icon-min.png") no-repeat 1px -59px;
+}
+.cityMenu{
+    position: absolute;
+    top:80px;
+    left:-30px;
+    background: #fff;
+    border: 1px solid #9f7a67;
+    display: none;
+}
+.cityMenu>li>a{
+    display: block;
+    text-align: center;
+    width:100px;
+    height:20px;
+    padding: 5px 0;
+    line-height: 20px;
+}
+.headMessage{
+    float: left;
+    position: relative;
+}
+.messageMenu{
+    position: absolute;
+    top:80px;
+    left:-30px;
+    background: #fff;
+    border: 1px solid #9f7a67;
+    display: none;
+}
+.messageMenu>li>a{
+    display: block;
+    text-align: center;
+    width:80px;
+    height:20px;
+    padding: 5px 0;
+    line-height: 20px;
+}
+.headLogin{
+    float: left;
+    margin-right: 23px;
+}
+.right_head>.headShopCar{
+    display: block;
+    width:18px;
+    height:18px;
+    float: left;
+    margin-top: 30px;
+    background: url("../img/icon-min.png") no-repeat -287px -76px;
+}
+
+
+/***********************主内容区*********************/
+.container{
+    width:1200px;
+    margin: 80px auto 65px;
+    padding-top:22px;
+
+}
+.cakeNav{
+    padding-left: 13px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    margin-bottom: 25px;
+}
+.cakeNav dl{
+    height:50px;
+    line-height: 50px;
+}
+.cakeNav dl dt{float: left;margin-right: 56px}
+.cakeNav dl dd{float: left;margin-right: 26px;}
+.cakeNav dl dd a{color:#684029;}
+.cakeNav dl dd a:hover{color:#bb9772;}
+
+
+.imgSize{width: 228px;height:230px;}
+
+/********************footer********************/
+.footerBox{
+    width:100%;
+    height: 400px;
+    background: #333;
+}
+.footerTop{
+    width:1100px;
+    margin: 0 auto;
+    padding-top:50px;
+}
+.footerTop>img{
+    display: block;
+    width:96px;
+    height:36px;
+    margin: 0 auto ;
+
+}
+.footerNav{
+    margin: 28px 0;
+    text-align: center;
+}
+.footerNav>a{
+    display: inline-block;
+    margin: 0 54px;
+    color:#fff;
+}
+.footerNav>span{
+    color:#fff;
+}
+.footerIcon{
+    text-align: center;
+    height:50px;
+    margin-bottom: 28px;
+    padding:0 393px;
+}
+.footerIcon li{
+    /*display: inline-block;*/
+    float: left;
+    display: block;
+    width:30px;
+    height:30px;
+    line-height: 30px;
+    border-radius: 25px;
+    margin: 0 27px;
+    position: relative;
+    padding: 10px;
+    color:#fff;
+    cursor: pointer;
+}
+.footerIcon1{
+    background:url(../img/footericon-01.png) #494949  no-repeat;
+    background-size: 30px 30px;
+    background-origin: content-box;
+}
+.footerIcon2{
+    background:url(../img/footericon-02.png) #494949  no-repeat;
+    background-size: 30px 30px;
+    background-origin: content-box;
+}
+.footerIcon3{background-color: #494949;}
+.erweima{
+    width:100px;
+    height:100px;
+    visibility: hidden;
+    position: absolute;
+    background: #fff;
+    left:-25px;
+    top:-110px;
+    overflow: hidden;
+}
+.icon:hover .erweima{visibility: visible}
+.icon:hover .erweima img{margin: 10px;transition: 1s;}
+.erweima img{
+    width:80px;
+    height:80px;
+    margin: 112px 10px 10px;
+}
+.footerText{text-align: center;margin-bottom: 18px;}
+.footerText span{display: block;color:#9a9a9a;}
+.footerBottom{
+    width:1100px;
+    margin: 0 auto;
+    padding:15px 0 18px 0;
+    text-align: center;
+}
+.footerBottom span {color:#9a9a9a;}
+.footerBottom a{color:#9a9a9a;}

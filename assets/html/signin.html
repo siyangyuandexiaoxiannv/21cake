@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/signin.css">
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+<!--header-->
+<div class="headBox">
+    <div class="head">
+        <h1><a href="#"><img src="../img/logo.jpg" alt=""></a></h1>
+        <ul class="left_head">
+            <li><a href="../../index.html">首页</a></li>
+            <li><a href="./cake.html">蛋糕</a></li>
+            <li><a href="#">冰淇淋</a></li>
+            <li><a href="#">咖啡下午茶</a></li>
+            <li><a href="#">面包</a></li>
+            <li><a href="#">咖啡全国送</a></li>
+            <li><a href="#">企业专区</a></li>
+        </ul>
+        <ul class="right_head">
+            <li class="headApp">APP下载
+                <div class="code">
+                    <img src="../img/code.png" alt="">
+                    <p>下载享更多优惠</p>
+                </div>
+            </li>
+            <li class="headCity xiala">北京
+                <span></span>
+                <ul class="cityMenu">
+                    <li><a href="#">上海</a></li>
+                    <li><a href="#">天津</a></li>
+                    <li><a href="#">杭州</a></li>
+                    <li><a href="#">无锡</a></li>
+                    <li><a href="#">广州</a></li>
+                    <li><a href="#">深圳</a></li>
+                </ul>
+            </li>
+            <li  class="headMessage xiala">
+                <a href="#">消息</a>
+                <ul class="messageMenu">
+                    <li><a href="#">通知</a></li>
+                    <li><a href="#">物流</a></li>
+                </ul>
+            </li>
+            <li class="headLogin">
+                <a href="./signin.html">登录</a>/
+                <a href="./login.html">注册</a>
+            </li>
+            <li class="headShopCar"></li>
+        </ul>
+    </div>
+</div>
+<!--container-->
+<div class="container">
+    <div class="signinBox">
+        <div class="signin">
+            <div class="user">
+                <h2 class="zhanghaodenglu tongyi" >账号密码登录</h2>
+                <h2 class="shoujidenglu tongyi" >手机验证码登录</h2>
+            </div>
+            <form action="" class="form">
+                <ul>
+                    <li>
+                        <input type="text" placeholder="请输入您的账号" id="phone" maxlength="11">
+                        <i id="ok"></i>
+                    </li>
+                    <li>
+                        <input type="password" placeholder="输入密码" id="password" maxlength="20" minlength="8">
+                        <i id="chengdu"></i>
+                    </li>
+                    <li id="errorText">
+                        <i id="tanhao"></i>
+                        <span id="tishixinxi"></span>
+                    </li>
+                    <li>
+                        <input type="button" id="signinBtn" value="登录">
+                    </li>
+                </ul>
+                <div class="read">
+                    <label>
+                        <input type="checkbox" checked>已阅读并同意
+                        <a href="https://www.21cake.com/article-agreement-36.html">21客会员协议</a>和
+                        <a href="https://www.21cake.com/article-policy-35.html">隐私保护政策</a>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<div class="footerBox">
+    <div class="footerTop">
+        <img src="../img/footer-logo.png" alt="">
+        <div class="footerNav">
+            <a href="#">联系我们</a>
+            <span>|</span>
+            <a href="#">订购帮助</a>
+            <span>|</span>
+            <a href="#">企业合作</a>
+            <span>|</span>
+            <a href="#">生产经营资质</a>
+            <span>|</span>
+            <a href="#">公告专区</a>
+        </div>
+        <ul class="footerIcon">
+            <li class="footerIcon1"><a href="https://weibo.com/21cake" style="width:50px; height:50px;display: block"></a></li>
+            <li class="footerIcon2 icon">
+                <div  class="erweima">
+                    <img src="../img/erweima.png" alt="">
+                </div>
+            </li>
+            <li class="footerIcon3 icon">
+                APP
+                <div class="erweima">
+                    <img src="../img/code.png" alt="">
+                </div>
+            </li>
+        </ul>
+        <div class="footerText">
+            <span>订购专线:400 650 2121(服务时间08:00-22:00)</span>
+            <span>客服电话:021-23099721(全国)| kefu@21cake.com(邮箱)</span>
+            <span>杭州/广州:提前5小时预订;北京:提前6小时预订;上海:提前5.5-6小时预订;天津/苏州/无锡/深圳:提前八小时预订(部分偏远地区除外，当日22点以后订单，于次日8点开始审核)</span>
+            <span>当日蛋糕配送截止下单时间:北京:16:50;上海:16:30;杭州/广州:13:50;天津:10:30;苏州/无锡/深圳:11:00</span>
+            <span>网站注册公司名称:北京廿一客食品有限公司地址:北京市北京经济技术开发区兴海二街5号院3号楼</span>
+        </div>
+    </div>
+    <hr width="100%" style="border:1px solid #616161;">
+    <div class="footerBottom">
+        <span>Copyright&copyright;21cake蛋糕官网商城 2007-2018，版权所有</span>
+        <a href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action;jsessionid=uPUmlgVJp5RWO873NwyzA3kS7oY7u6lgqAeoFipOl8O8ziwSr00Y!-2113647171">京ICP备14006254号-1</a>
+    </div>
+</div>
+
+<script>
+    /*二维码*/
+    $(".code").slideUp();
+    $(".headApp").hover(function () {
+            $(this).children().eq(0).slideDown(200)
+        },
+        function () {
+            $(this).children().eq(0).slideUp(200)
+        });
+    /*城市下拉菜单,消息下拉菜单*/
+    $(".xiala").hover(
+        function (){
+            $(this).children().last().slideDown(200)
+        },
+        function () {
+            $(this).children().last().slideUp(200)
+        }
+    );
+
+    /*设置注册元素的正则*/
+
+        var phone=document.getElementById("phone");
+        var password=document.getElementById("password");
+        phone.addEventListener("change",changePhoneHandler);
+        password.addEventListener("input",inputPasswordHandler);
+
+
+
+    function changePhoneHandler() {
+        var reg=/^1[34578]\d{9}$/;
+        if(!reg.test(phone.value)){
+            $("#tanhao").css({background:"url(../img/icon-min.png) no-repeat -41px -44px"});
+            $("#tishixinxi").text("请输入正确的电话号码");
+        }
+        else{
+            $("#ok").css({background:"url(../img/icon-min.png) no-repeat -62px -44px"});
+        }
+
+    };
+
+    function inputPasswordHandler() {
+        var reg1=/^\S*([a-zA-Z]+\S*[0-9]+|[0-9]+\S*[a-zA-Z]+)\S*$/;
+        if(!reg1.test(password.value)){
+            $("#tanhao").css({background:"url(../img/icon-min.png) no-repeat -41px -44px"});
+            $("#tishixinxi").text("密码有8-20个字符，需同时包含英文和数字");
+        }else{
+            $("#tanhao").css({background:""});
+            $("#tishixinxi").text("");
+        };
+        if(password.value.length<8){
+            $("#chengdu").css({
+                "background":"url(../img/icon-min.png) no-repeat -80px -45px"
+            })
+        }else if(password.value.length<15){
+            $("#chengdu").css({
+                "background":"url(../img/icon-min.png) no-repeat -98px -45px"
+            })
+        }else if(password.value.length<20){
+            $("#chengdu").css({
+                "background":"url(../img/icon-min.png) no-repeat -115px -45px"
+            })
+        }
+
+    }
+
+    /*Ajax通信Post*/
+    var signinBtn=document.getElementById("signinBtn");
+    signinBtn.addEventListener("click",clickHandler);
+    function clickHandler(e) {
+        var username=phone.value;
+        var password2=password.value;
+        var obj={username:username,password:password2,type:2}
+      /*  var xhr=new XMLHttpRequest();
+        xhr.addEventListener("readystatechange",readyStateChangeHandler);
+        xhr.open("POST","http://localhost:3004");
+        xhr.send(JSON.stringify(obj));*/
+        $.ajax({
+            url:"http://10.9.29.245:3007",
+            type:"POST",
+            data:{
+                username:username,
+                password:password2,
+                type:obj.type
+
+            },
+            success:function (res) {
+                if(res==="1"){
+                    alert("还没注册,请注册")
+                }else if(res==="2"){
+                    alert("登陆成功")
+                    location.href="../../index.html"+"?id=1"
+                }else if(res==="3"){
+                    alert("账号名或密码错误")
+                }else if(res==="4"){
+                    alert("注册成功，请登录！")
+                    location.href="signin.html"
+                }
+            },
+            error:function (err) {
+                console.log(err);
+            }
+        })
+    }
+    /*function readyStateChangeHandler(e) {
+        if(this.readyState==4&&this.status==200){
+               if(xhr.responseText=="没找到"){
+                   $("#tanhao").css({background:"url(../img/icon-min.png) no-repeat -41px -44px"});
+                   $("#tishixinxi").text("用户名/密码错误");
+               }else{
+                   window.location.href="../../index.html"
+               }
+            }else{
+                alert("登录失败");
+            }
+
+    }*/
+
+
+</script>
+</body>
+</html>
